@@ -1,0 +1,117 @@
+:root {
+    --primary-text-colour: rgb(0, 0, 0);
+    --title-text-colour: #000000;
+    --accent-colour: #1d77de;
+    --primary-white-colour: #ffffff;
+    --primary-grey-colour: #f2f1f9;
+    --primary-dark-colour: #23242c;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-text-colour);
+    background-color: var(--primary-white-colour);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: var(--primary-white-colour);
+    color: var(--primary-text-colour);
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--title-text-colour);
+    text-decoration: none;
+}
+
+.header .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header .nav-list a {
+    color: var(--title-text-colour);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    background-color: var(--primary-dark-colour);
+    text-align: center;
+    width: 1600 px;
+}
+
+.hero h1 {
+    color: var(--primary-white-colour);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: var(--accent-colour);
+    color: var(--primary-white-colour);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    background-color: var(--primary-white-colour);
+    padding: 40px 0;
+}
+
+.works {
+    background-color:var(--primary-white-colour);
+    padding: 40px 0;
+}
+
+.crew {
+    background-color: var(--primary-grey-colour);
+    padding: 40px 0;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.features-list li {
+    text-align: center;
+    flex: 1;
+}
+
+.features-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--title-text-colour);
+}
+
+.features-list p {
+    color: var(--primary-text-colour);
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--primary-dark-colour);
+    color: var(--primary-white-colour);
+    padding: 20px 0;
+}
